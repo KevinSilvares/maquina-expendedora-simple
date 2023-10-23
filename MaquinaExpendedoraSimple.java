@@ -1,13 +1,13 @@
 public class MaquinaExpendedoraSimple {
     
     // El precio del billete
-    private int precioBillete;
+    private int precioBillete = 20;
     // La cantidad de dinero que lleva metida el cliente actual
     private int balanceClienteActual;
     // El total de dinero almacenado en la maquina desde su ultimo vaciado
     private int totalDineroAcumulado;
     // El origen del billete
-    private String estacionOrigen;
+    private String estacionOrigen = "León";
     // El destino del billete
     private String estacionDestino;
 
@@ -18,9 +18,9 @@ public class MaquinaExpendedoraSimple {
      */
     public MaquinaExpendedoraSimple(String destino) {
         precioBillete = 20;
-        balanceClienteActual = 0;
         totalDineroAcumulado = 0;
         estacionOrigen = "León";
+        balanceClienteActual = 0;
         estacionDestino = destino;
     }
 
