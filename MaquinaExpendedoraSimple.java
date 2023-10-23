@@ -16,12 +16,12 @@ public class MaquinaExpendedoraSimple {
      * precio del billete y el origen y destino dados. Se asume que el precio
      * del billete que se recibe es mayor que 0.
      */
-    public MaquinaExpendedoraSimple(String destino) {
+    public MaquinaExpendedoraSimple() {
         precioBillete = 20;
         totalDineroAcumulado = 0;
         estacionOrigen = "León";
         balanceClienteActual = 0;
-        estacionDestino = destino;
+        estacionDestino = "Burgos";
     }
 
     /**
